@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000';
+const baseURL = 'https://gargalo.ru/api/';
 
 class ApiError extends Error {
   constructor(public data: unknown) {

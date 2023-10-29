@@ -1,5 +1,11 @@
-import { HomePage } from '@/pages/home-page';
+import { HomePage } from '@/pages';
+
+import { AppProvider } from './app-provider';
 
 export function App() {
-  return <HomePage />;
+  return (
+    <AppProvider>
+      <HomePage />
+    </AppProvider>
+  );
 }
